@@ -6,6 +6,7 @@
 
 // While loop
 document.write("<h3>While loop</h3>");
+var zoo = ['lion','tiger', 'elephant', 'penguin', 'koala', 'pig', 'duck']
 var i = 0;
 var num;
 while (i < 10) {

@@ -50,6 +50,64 @@ nav a:hover {
 	height:0;
 }
 
+@media only screen and(min-width: 992px) and (max-width: 1159px){
+	body {
+		background-color: #efefef;
+		float: ;
+		width: ;
+	}
+	header object {
+		height: 250px;
+
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-color: aqua;
+		float: ;
+		width: 800px;
+		margin: 24px;
+	}
+	header object {
+		height: 200px;
+
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	body {
+		background-color: lime;
+		float: ;
+		width: 650px;
+		margin: 22px;
+	}
+	header object {
+		height: 150px;
+		width: 300px;
+		float: left;
+	}
+	}
+ 
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	body {
+		background-color: fuchsia;
+		float: ;
+		width: 450px;
+		margin: 34px;
+		padding: 24px;
+	}
+	header object {
+		height: 165px;
+
+	}
+	nav a {
+		width: 100%;
+		float: none;
+		font-size: 1.5em;
+	}
+
+}
 /* Tablet Layout: 768px.
  * Gutters: 24px.
  * Outer margins: 28px.

@@ -12,6 +12,25 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+body {
+  background: url('../images/background.jpg') repeat-x;
+  background-color: #d6d6d6;
+  text-color: #000000;
+}
+
+#container {
+     width: 940px;
+     height: 500px;
+     padding:10px;
+     background-color: white;
+     margin: 0 auto;
+}
+#sidebar {
+     float: left;
+     padding-top: 0;
+     padding-right:10px;
+     margin:0px;
+}
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -28,3 +47,10 @@ Developer @GA in NYC
 
 
 
+/* Additional Stuff */
+
+
+
+#sidebar{
+     background-color: white;
+}

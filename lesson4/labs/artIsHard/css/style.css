@@ -5,7 +5,7 @@ body {
 	font-size: 12px;
 	color: black; 
 	line-height: 1.25;
-	background: url(images/hipster-line.gif')  no-repeat;
+	background: url(../images/hipster-line.gif)  no-repeat;
 }
 
 #container {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-	padding: 140px 0 60px 0;
+	padding: 140px 60px;
 }
 
 #main {
@@ -40,7 +40,7 @@ header h2 {
   font-family: Courier;
 }
 
-header h3 {
+header h1 {
   font-size: 100px;
   padding: 0;
   margin: 0;
@@ -51,6 +51,7 @@ header h3 {
   letter-spacing: -2px;
   font-weight: bold;
   text-transform: uppercase;
+
 }
 
 

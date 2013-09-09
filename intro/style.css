@@ -94,5 +94,9 @@ li{
 }
 li a {
 	display: block;
-	font-color: white; 
+	color: white; 
+}
+
+li a:visited {
+	color: white; 
 }

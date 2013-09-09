@@ -75,6 +75,23 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#sidebar-left{
+     background-color: green;
+     width: 320px;
+     height: 400px;
+     float: left;
+}
 
+#main-column{
+     background-color: yellow;
+     width: 320px;
+     height: 500px;
+     float: left;
+}
+
+#sidebar-right{
+     background-color: gray;
+     height: 400px;
+}
 
 

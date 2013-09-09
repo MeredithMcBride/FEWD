@@ -48,7 +48,7 @@ Developer @GA in NYC
 body {
      color: #000;
      font-size: 12px;
-     line-height: 1.4;
+     line-height: 1.4em;
      font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -58,23 +58,39 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+body {
 	width: 960px;
 	margin: auto;
 }
 
 header {
-
+     background:#89CEDE;
+     height: 138px;
+}
+header h1{
+     margin-top: 0px;
+     color: white;
+     font-size: 48px;
 }
 
 footer {
-
+     background: #89CEDE;
+     height: 138px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#main{
+     background-color: yellow;
+     width: 640px;
+}
 
+#sidebar{
+     background-color: purple;
+}
 
-
+#sidebar2{
+     background-color: green;
+}

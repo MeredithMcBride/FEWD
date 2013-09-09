@@ -18,7 +18,7 @@ $(document).ready(function(){
 	$('#gallery img').hover(mouseOn,mouseOff);
 
 	//add rel attribute to gallery links to add arrow functionality to fancybox plugin
-	$('#gallery a').attr('rel','gallery1');
+	$('#gallery a').attr('rel','gallery2');
 
 	//apply fancybox plugin
 	$('#gallery a').fancybox();

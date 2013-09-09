@@ -37,3 +37,47 @@ a:hover {
 	clear: both;
 }
 	
+
+@media only screen and (min-width: 479px) and (max-width: 559px){
+	#container {
+		width: 100% ;
+	}	
+	.span-one-third {
+		color:red;
+		float:left ;
+		width:100%;
+	}
+}	
+
+@media only screen and (min-width: 559px) and (max-width: 767px){
+	#container {
+		width: 720px;
+	}	
+	.span-one-third {
+		color: green;
+		background-color: rgb(392 49 1);
+		float: left;
+		width: 50%;
+	}
+	
+}
+@media only screen and (min-width: 767px) and (max-width: 959px){
+	#container {
+		width: 920px ;
+	}	
+	.span-one-third {
+		color: yellow;
+		float: left;
+		width: 20%;
+	}
+}
+@media (min-width: 959px) and (max-width: 1159px){
+	#container {
+		width: ;
+	}	
+	.span-one-third {
+		color: ;
+		float: ;
+		width: ;
+	}
+}

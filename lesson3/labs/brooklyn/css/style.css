@@ -1,6 +1,26 @@
-/* 
+body {
+	background-color: #F3EBE9;
+	font size: 12px;
+	line-height: 1.6em;
+	font: "times new roman", serif;
+	color: #656565;
+}
+h1 {
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-color: #999999;
+	margin-top: 40px;
 
-Style Hints: 
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;	
+}
+
+/*Style Hints: 
 
 Body Font Size = 12px
 	 Line-height: 1.6; 
@@ -13,6 +33,4 @@ H1 Font Size = 40px
    Text-transform: uppercase;
    Font Color = #999999
 
-Link Hover Color = #20222a
-
-*/
+Link Hover Color = #20222a*/
