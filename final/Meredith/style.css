@@ -1,0 +1,43 @@
+/*Clearfix*/
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+     float: left;
+ }
+
+/*Header*/
+
+ header {
+ 	background: gray;
+ 	height: 60px;
+ 	font: helvetica, sans-serif, arial;
+ 	font-size: 24px;
+ 	font-color: white;
+
+ }
+
+/* Nav */
+
+nav a {
+	display: block;
+	height: 100%;
+	text-align: center;
+	border:1px solid #ccc;
+	padding: 10px 0px;
+	padding-color: black;
+	margin-right: 20px;
+}
+
+nav a:hover {
+	background:#ccc;
+}
+
+nav ul li {
+		margin-right: 20px;	
+	}
+

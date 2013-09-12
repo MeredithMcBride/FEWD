@@ -9,3 +9,18 @@
  * 2) Use the mouseMove event to show the current position of the mouse using the HTML snippet provided
  */
 
+$('#mouseBox').click(function(event){
+	$('#mouseBox').toggleClass('clicked');
+
+});
+
+$('#mouseBox').mousemove(function(event){
+	// console.log(event.pageX);
+	// console.log(event.pageY);
+	$('#xLocation').text(event.pageX);
+	$('#yLocation').text(event.pageY);
+
+});
+
+$('#mouseBox').mouseup(function(event){
+	console.log()
