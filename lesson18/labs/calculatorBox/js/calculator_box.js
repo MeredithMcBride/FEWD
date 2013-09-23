@@ -23,5 +23,17 @@ $(function(){
 
 	//$(box to be updated).click(function call);
 
-
+	$('#a10').on('click',10,update)
+	$('#a20').on('click',20,update)
+	$('#a30').on('click',30,update)
+	$('#n10').on('click',-10,update)
+	$('#n20').on('click',-20,update)
+	$('#n30').on('click',-30,update)
 });
+
+
+	function update(event) {
+		total = total + event.data;
+		$('#out').text(total);
+	}
+	

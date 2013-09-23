@@ -13,5 +13,42 @@
  */
 
 $(document).ready(function(){
-		
+	$('span[id$="error"]').hide();
+
+	$('input[type="submit"]').click(function(event){
+	event.preventDefault();
+
+		var name = $('#user_name').val();
+		var age = $('#user_age').val();
+		var phone = $('#user_ph').val();
+		var email = $('#user_email').val();
+
+		if (name.length < 3) {
+			$('#user_name_error').show();
+		} else {
+			$('#user_name_error').hide();
+		}
+
+		if (isNaN(age)) {
+			$('#user_age_error').show();
+		} else {
+			$('#user_age_error').hide();
+		}
+
+
+		var pattern = /^[0-9]+[0-9]+[0-9]+[_.-]+[0-9]+[0-9]+[0-9]+[_.-]+[0-9]+[0-9]+[0-9]+[0-9]$/;
+		if (pattern.test(phone)) {
+			$('#user_ph_error').hide();
+		} else {
+			$('#user_ph_error').show();
+		}
+
+		pattern = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/;
+		if (pattern.test(email)) {
+			$('#user_email_error').hide();
+		} else {
+			$('#user_email_error').show();
+		}
+	
+	});	
 });

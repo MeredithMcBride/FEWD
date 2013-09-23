@@ -72,6 +72,14 @@ nav {
 
 /* Social Media */
 
+li a {
+	display: block;
+  background-image: url(images/social_sprite.png);
+  width: 60px;
+  height: 60px;
+  text-indent: -300px;
+}
+
 #socialMedia {
 	float: right;
 }
@@ -84,24 +92,22 @@ nav {
 	 text-indent:-9999em;
 }
 
-#socialMedia ul li.linkedIn {
-	background:url(../images/socialNav.png) 0px 64px;
+#socialMedia ul li.pinterest {
+	background:url(images/social_sprite.png) 0px 64px;
 }
 #socialMedia ul li.twitter {
-	background:url(../images/socialNav.png) -60px 64px; 
+	background:url(../images/social_sprite.png) -60px 64px; 
 }
 
 #socialMedia ul li.facebook {
-	background:url(../images/socialNav.png) -120px 64px; 
-}
-
-#socialMedia ul li.rss {
-	background:url(../images/socialNav.png) -180px 64px; 
+	background:url(../images/social_sprite.png) -120px 64px; 
 }
 
 
 
-#socialMedia ul li.linkedIn:hover {
+
+
+#socialMedia ul li.pinterest:hover {
 	background:url(../images/socialNav.png) 0px 0px; 
 }
 
@@ -113,8 +119,5 @@ nav {
 	background:url(../images/socialNav.png) -120px 0px; 
 }
 
-#socialMedia ul li.rss:hover {
-	background:url(../images/socialNav.png) -180px 0px; 
-}
 
 

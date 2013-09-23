@@ -6,3 +6,20 @@ Hints:
 3.) Learn how to select specific inputs using eq selectors: http://api.jquery.com/eq-selector/
 
 */
+
+
+$('#addition input:eq(0)').change(addition);
+$('#addition input:eq(1)').change(addition);
+
+
+function addition() {
+	var sumBox1 = parseInt($('#addition input:eq(0)').val());
+	var sumBox2 = parseInt($('#addition input:eq(1)').val());
+	$('#addition input:eq(2)').val(sumBox1 + sumBox2);
+}
+
+var str="Hello 3 world!";
+//look for "Hello"
+var patt = /[0-9]/g;
+var result = patt.test(str);
+document.write("Returned value: " + result);
